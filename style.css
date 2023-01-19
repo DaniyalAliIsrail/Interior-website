@@ -1,0 +1,172 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+/* .flex{
+    display: flex;
+}
+
+.nav-bar-sec{
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    border: 2px solid red;
+}
+
+.nav-bar{
+    border: 2px solid red;
+
+}
+
+.all-nav{
+    justify-content: end;
+    align-items: center;
+} */
+
+
+/* .container {
+    max-width: 1180px;
+    margin-inline: auto;
+    padding-inline: 20px;
+}
+
+nav {
+
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 20px 10px;
+    position: sticky;
+    top: 0;
+
+
+}
+
+.nav-bar {
+    justify-content: center;
+    gap: 60px;
+
+}
+
+.nav-bar {
+    color: white;
+    transition: .2sec;
+}
+
+.nav-bar a:hover {
+    color: blue;
+    transition: ease-out;
+}
+
+
+
+.logo {
+    color: white;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.logo span {
+    color: green;
+}
+
+.nav-bar a {
+    color: white;
+    font-weight: 500;
+    font-size: 1rem;
+} */
+
+body{background-repeat: no-repeat;
+    background-image:url("./Asset/bg1.jpg");
+    
+    
+}
+
+.container {
+    max-width: 1180px;
+    margin-inline: auto;
+    padding-inline: 20px;
+    /* padding-inline:50px;
+    margin-inline:auto;
+     */
+}
+
+.flex{
+    display: flex;
+}
+
+nav {
+
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10px;
+    
+}
+
+.logo{
+    color: white;
+}
+
+.nav-bar {
+justify-content:space-evenly;
+gap: 60px;
+}
+
+.nav-bar a{
+    color:white;
+    font-weight: 400;
+}
+
+.main-heading h1{
+    width: 200%;
+    padding-left:100px ;
+    margin-left: 150px;
+    padding-top: 50px;
+
+}
+ 
+.main-heading h4{
+    width: 70%;
+    margin-left: 140px;
+    text-align: center;
+    color: whitesmoke;
+    font-weight: bold;
+    
+
+}
+
+
+h1{
+    font-size: 4.2rem;
+    color: azure;
+}
+
+.home{
+    margin-top: 100px;
+    ;
+}
+
+.main-btn{
+    justify-content: center;
+    
+}
+
+.div{
+    padding-top: 20px;
+}
+
+.btn{
+    padding-block: 10px;
+    padding-inline: 15px;
+    border-radius: 6px;
+    border: none;
+    
+
+}
+
+
